@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar{
+    padding-top: 18px;
+}
+
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+
+.Item-tag{
+    font-size: 14px;
+}
+
+.Item-tag:hover{
+    color: #806BDC;
+}
+
+.Shopping-container{
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#shopping-time-img{
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+}
+
+/* 1. Fix the Header Color and Text */
+.Sales-table-head th {
+    background-color: #806BDC;
+    color: white;             /* Makes the text white */
+    padding: 15px 5px;       /* Adds some vertical space */
+    font-size: 14px;
+}
+
+/* 2. Ensure the Table Body Cells are visible */
+.Sales-table td {
+    padding: 12px 5px;
+    border: 1px solid #ddd; /* Adds light lines between rows */
+}
+
+/* 3. Refine the Table Container */
+.Sales-table {
+    width: 90vw;
+    margin: 20px auto;      /* Adds a little space above/below the table */
+    border-collapse: collapse;
+    background-color: white; /* Ensures the table background is clean */
+}
+/* 19. Information Section Styling */
+.Information {
+    max-width: 800px; /* Keeps the text from stretching too wide on big screens */
+    margin: 40px auto; /* Centers the block */
+    font-size: 16px; /* Much more readable */
+    line-height: 1.6; /* Adds breathing room between lines */
+    color: #444;
+}
+
+.Information h2 {
+    margin-top: 30px;
+    color: #806BDC;
+}
+
+/* 20. Footer Styling */
+footer {
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/* Styling the table cells as cards */
+#item-table td {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add a slight lift effect when you hover over an item */
+#item-table td:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.Item-img {
+    height: 120px; /* Making images a bit larger for detail */
+    object-fit: contain; /* Prevents stretching */
+    margin-bottom: 10px;
+}
